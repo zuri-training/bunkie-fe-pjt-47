@@ -16,7 +16,7 @@ All designs were done using figma. Here is the figma link to view - https://www.
 1. Fork the repository
 2. Clone and then open it up on your code editor using the git command - git clone <url of repo> on your terminal.
 3. Open your terminal and set upstream branch git remote add upstream https://github.com/zuri-training/bunkie-fe-pjt-47. for further explanation on upstream see https://stackoverflow.com/questions/8948803/what-does-git-remote-add-upstream-help-achieve
-4. Pull upstream  using the git command - git pull upstream develop
+4. Pull upstream  using the git command - git pull upstream Develop
 5. Create a new branch for the task you are assigned to, using the git command:  git checkout -b <branch name>
 6. After making changes, use the git command -: git add . or git add -A or git add (the file name) to effect changes you've made to the branch
 7. Commit your changes with a descriptive commit message, the commit message should give an idea of the feature you worked on, use the git command:  git commit -m "commit message"  
