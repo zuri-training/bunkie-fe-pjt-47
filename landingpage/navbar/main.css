@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centralize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  color: #090909;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  width: 100%;
+  height: 121px;
+}
+body header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header nav .search_container {
+  width: 444px;
+  height: 54px;
+  background: #e5e5e5;
+  position: relative;
+  border-radius: 10px;
+}
+body header nav .search_container .icon {
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+body header nav .search_container .icon .iconify {
+  font-size: 24px;
+  color: #8a8a8e;
+}
+body header nav .search_container input {
+  position: absolute;
+  width: calc(100% - 50px);
+  height: 100%;
+  margin-left: 50px;
+  border: none;
+  background: transparent;
+}
+body header nav .search_container input:focus {
+  outline: none;
+}
+body header nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 446px;
+}
+body header nav .links .get_bunk {
+  width: 170px;
+  padding: 10px;
+  border-radius: 9px;
+  background: #00be85;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+body header nav .links .link_item a {
+  text-decoration: none;
+  color: #090909;
+  font-size: 20px;
+  padding: 5px 0;
+  position: relative;
+}
+body header nav .links .link_item a:hover {
+  font-weight: 600;
+}
+body header nav .links .link_item a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 4px;
+  background: #00be85;
+  border-radius: 5px;
+}
+@media screen and (max-width: 778px) {
+  body header nav .links {
+    display: none;
+  }
+  body header nav .search_container {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 578px) {
+  body header nav .search_container {
+    width: 250px;
+  }
+}
+body header .hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: url("../resources/images/hero.png") rgba(0, 0, 0, 0.193);
+}
+body header .hero img.one {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+body header .hero img.two {
+  position: absolute;
+  bottom: 90px;
+  right: 48%;
+}
+body header .hero .content {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px;
+  height: 390px;
+  color: #fff;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body header .hero .content h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+body header .hero .content p {
+  font-size: 23px;
+  line-height: 137.2%;
+}
+body header .hero .content .get_bunk {
+  width: 170px;
+  padding: 15px;
+  border-radius: 9px;
+  background: #00be85;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=main.css.map */
