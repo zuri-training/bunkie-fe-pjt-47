@@ -2,26 +2,27 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
 body {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 4917px;
+  margin: auto -40px;
 
   background: #ffffff;
 }
 
 .aboutpic {
   position: absolute;
-  width: 544px;
-  height: 362px;
-  left: 139px;
-  top: 831px;
+  width: 518px;
+  height: 344px;
+  left: 134px;
+  top: 867px;
 }
 
 .rec3 {
   position: absolute;
-  width: 465px;
+  width: 531px;
   height: 469px;
-  left: 176px;
-  top: 822px;
+  left: 110px;
+  top: 846px;
 
   background: linear-gradient(
     270deg,
@@ -29,15 +30,15 @@ body {
     rgba(242, 242, 242, 0.21) 100%
   );
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.06);
-  border-radius: 167.5px;
+  border-radius: 167.5px 167.5px 5px 126px;
 }
 
 .rec4 {
   position: absolute;
-  width: 521px;
+  width: 526px;
   height: 104px;
   left: 115px;
-  top: 1184px;
+  top: 1211px;
 
   background: linear-gradient(270deg, rgba(0, 190, 133, 0.4) 0%, #edeff1 100%);
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.06);
@@ -96,7 +97,7 @@ body {
   left: 838px;
   top: 1196px;
 
-  background: #00be85;
+  background: #027a63;
   border-radius: 10px;
 
   font-family: Montserrat;
@@ -442,7 +443,7 @@ body {
   left: 110px;
   top: 2889px;
 
-  background: #00be85;
+  background: #027a63;
   border-radius: 10px;
 
   font-family: Montserrat;
@@ -501,7 +502,7 @@ body {
   left: 158px;
   top: 3378px;
 
-  background: #00be85;
+  background: #027a63;
   border-radius: 10px;
   font-family: Montserrat;
   font-style: normal;

@@ -5,6 +5,7 @@ body {
   position: relative;
   width: 100%;
   height: 4917px;
+  margin: auto -40px;
 
   background: #ffffff;
 }
@@ -14,6 +15,7 @@ body {
   height: 321px;
   left: 0px;
   top: 4228px;
+  margin: auto 40px;
 }
 
 .ftmaintext {
@@ -47,10 +49,10 @@ body {
 
 .iosappstorepic {
   position: absolute;
-  width: 252px;
-  height: 75px;
-  left: 761px;
-  top: 4432px;
+  width: 235px;
+  height: 65px;
+  left: 763px;
+  top: 4437px;
   border-radius: 10px;
 }
 
@@ -67,9 +69,9 @@ h4 {
 
 .bunkiefttext {
   position: absolute;
-  width: 152px;
-  height: 49px;
-  left: 110px;
+  width: 180px;
+  /* height: 49px; */
+  left: 100px;
   top: 4611px;
 
   font-family: Montserrat;

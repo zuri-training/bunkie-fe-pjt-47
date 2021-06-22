@@ -60,14 +60,15 @@ body header nav .links {
   justify-content: space-around;
   width: 446px;
 }
-body header nav .links .get_bunk {
-  width: 170px;
-  padding: 10px;
-  border-radius: 9px;
-  background: #00be85;
+.get_bunk {
+  width: 172px;
+  padding: 6px;
+  border-radius: 10px;
+  background: #027a63;
   color: #fff;
   text-decoration: none;
   font-size: 20px;
+  border: 0px;
 }
 body header nav .links .link_item a {
   text-decoration: none;
@@ -107,6 +108,7 @@ body header .hero {
   width: 100%;
   height: 600px;
   background: url("../resources/images/hero.png") rgba(0, 0, 0, 0.193);
+  margin: auto 40px;
 }
 body header .hero img.one {
   position: absolute;
