@@ -6,13 +6,12 @@ body {
   width: 100%;
   height: 4917px;
   margin: auto -40px;
-  background: #8d1010;
 
-  /* background: #ffffff; */
+ background: #ffffff;
 }
 .footerrec {
   position: absolute;
-  width: 100vw;
+  width: 1440px;
   height: 321px;
   left: 0px;
   top: 4228px;
