@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
 
-.footerinitial{
+.footerinitial {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@
   color: #ffffff;
 }
 
-.applogs{
+.applogs {
   display: flex;
   justify-content: center;
   margin-top: 30px;
@@ -50,13 +50,12 @@
   margin-left: 20px;
 }
 
-.footertextmajor{
+.footertextmajor {
   display: flex;
   width: 98%;
   justify-content: center;
   height: 300px;
   margin: 20px 10px;
-
 }
 
 h4 {
@@ -72,9 +71,8 @@ h4 {
 .bunkiefttext {
   width: 180px;
   margin-left: -10px;
-
 }
-.headertext{
+.headertext {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -92,45 +90,42 @@ h6 {
 
 .contenttext {
   margin-bottom: 5px;
-  
 }
 
-.logoaddicon{
+.logoaddicon {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   width: 20%;
   margin-top: 20px;
-  
 }
-.motto{
+.motto {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.footericons{
+.footericons {
   display: flex;
   justify-content: start;
   margin-top: 5px;
 }
-.iglogo{
+.iglogo {
   margin-right: 25px;
 }
 
-.fblogo{
+.fblogo {
   margin-right: 25px;
 }
 
-.footerheading{
+.footerheading {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 20%;
   margin-left: 30px;
-  
 }
 
-.breakers{
+.breakers {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 20px;
@@ -149,14 +144,14 @@ h6 {
 }
 
 /* THE CODE FOR TABLET STARTS HERE */
-@media screen and (min-width:425px) and (max-width:768px){
-  .footerinitial{
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .footerinitial {
     background-image: url(/landingpage/resources/images/Rectangle\ 110footer.png);
-    background-size:contain;
+    background-size: contain;
     width: 100%;
     height: 180px;
   }
-  
+
   .ftmaintext {
     margin-top: 40px;
     width: 80%;
@@ -164,20 +159,20 @@ h6 {
     font-size: 15px;
     line-height: 139%;
   }
-  
-  .applogs{
+
+  .applogs {
     margin-top: 20px;
     width: 100%;
     height: 150px;
   }
-  
+
   .googleplaystorepic {
     width: 180px;
     height: 62px;
     border-radius: 10px;
     margin-right: 20px;
   }
-  
+
   .iosappstorepic {
     margin-top: 5px;
     width: 180px;
@@ -185,91 +180,218 @@ h6 {
     border-radius: 10px;
     margin-left: 20px;
   }
-  
-  .footertextmajor{
+
+  .footertextmajor {
     width: 98%;
     justify-content: center;
     height: 200px;
     margin: 20px 5px;
-  
   }
-  
+
   h4 {
     font-size: 20px;
     line-height: 18px;
   }
-  
+
   .bunkiefttext {
     width: 120px;
     margin-left: -10px;
-  
   }
-  .headertext{
+  .headertext {
     margin-top: 15px;
     margin-bottom: 25px;
   }
-  
+
   h6 {
     font-size: 15px;
     line-height: 18px;
   }
-  
+
   .contenttext {
     margin-bottom: 8px;
-    
   }
-  
-  .logoaddicon{
+
+  .logoaddicon {
     width: 20%;
     margin-top: 20px;
-    
   }
-  .motto{
+  .motto {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  
-  .footericons{
+
+  .footericons {
     margin-top: 5px;
   }
-  .iglogo{
-    margin-right: 20px;
-    width: 20px;
-    height: 20px;
-  }
-  
-  .fblogo{
+  .iglogo {
     margin-right: 20px;
     width: 20px;
     height: 20px;
   }
 
-  .twlogo{
+  .fblogo {
     margin-right: 20px;
     width: 20px;
     height: 20px;
   }
-  
-  .footerheading{
+
+  .twlogo {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .footerheading {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 20%;
     margin-left: 30px;
   }
-  
-  .breakers{
+
+  .breakers {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
   }
-  
+
   .break-left {
     width: 40%;
     height: 0px;
     border: 1px solid #000000;
   }
-  
+
+  .break-right {
+    width: 40%;
+    height: 0px;
+    border: 1px solid #000000;
+  }
+}
+
+/* CCODE FOR MOBILE DEVICES START HERE */
+@media screen and (min-width: 360px) and (max-width: 425px) {
+  .footerinitial {
+    background-image: url(/landingpage/resources/images/Rectangle\ 110footer.png);
+    background-size: contain;
+    width: 100%;
+    height: auto;
+  }
+
+  .ftmaintext {
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    font-size: 9px;
+    line-height: 139%;
+  }
+
+  .applogs {
+    display: flex;
+    align-items: center;
+    background-color: #2bc999;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .googleplaystorepic {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .iosappstorepic {
+    margin-top: 5px;
+    width: 70px;
+    height: 28px;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+
+  .footertextmajor {
+    flex-direction: column;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 20px 5px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  .bunkiefttext {
+    width: 120px;
+    margin-left: -10px;
+  }
+  .headertext {
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  h6 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .contenttext {
+    margin-bottom: 8px;
+  }
+
+  .logoaddicon {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .motto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footericons {
+    margin-top: 5px;
+  }
+  .iglogo {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .fblogo {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .twlogo {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .footerheading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin-left: 0px;
+  }
+
+  .breakers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .break-left {
+    width: 40%;
+    height: 0px;
+    border: 1px solid #000000;
+  }
+
   .break-right {
     width: 40%;
     height: 0px;
