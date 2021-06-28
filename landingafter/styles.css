@@ -271,7 +271,7 @@ width: 40px;
   font-style: normal;
   font-weight: 600;
   font-size: 45px;
-  line-height: 55px;
+  line-height: 50px;
   /* identical to box height */
   color: #444343;
 }
@@ -814,6 +814,16 @@ body{
   a.login{
     text-decoration: none;
   }
+
+  .notibell{
+    height: 25px;
+    width: 25px;
+  }
+
+  .useravatar{
+    height: 38px;
+    width: 38px;
+  }
   
   .headcategory{
     display: flex;
@@ -916,124 +926,105 @@ body{
     height: 58px;
     font-size: 15px;
   }
-  
-  .howcategory{
-    height: 400px;
-    margin: 30px 0;
-  }
-  
-  .howtextheading {
-    width: 150px;
-    height: 20px;
-    font-size: 20px;
-    line-height: 23px;
-  }
-  
-  .howline {
-    margin: 6px 0 15px 41%;
-    width: 40px;
-    height: 3px;
-  }
-  
-  .howdetailstext {
-    width: 320px;
-    height: 40px;
-    font-size: 15px;
-    line-height: 19px;
-  }
 
+  .recentcategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 30px 0px;
+  }
+  
+  .recenttextheading {
+    height:32px !important;
+    font-size: 20px !important;
+    text-align: center;
+  }
+  
+  .recentline {
+    margin: 5px 0 15px 42% !important;
+    width: 50px !important;
+  }
+  
+  .recentdetailstext {
+    align-self: center;
+    width: 440px;
+    height: 30px !important;
+    font-size: 15px !important;
+    line-height: 148.4%;
+    /* or 30px */
+    text-align: center;
+    color: #3e3e3e;
+  }
   .squarecont{
     display: flex;
     justify-content: space-evenly;
-    height: 250px;
+    height: 80%;
     width: 100%;
     margin: 0px auto 30px;
-    padding-top: 20px;
-  
+    padding-top: 50px;
+    
   }
   
   .bigsquare1 {
-    align-self: flex-end;
-    width: 220px;
-    height: 180px;
-    background: #edeff1;
-    border-radius: 10px;
+    width: 230px !important;
+    height: 300px !important;
+    background-size:contain !important;
+    background-repeat: no-repeat !important;
   }
-
+  
   .bigsquare2 {
-    align-self: flex-start;
-    width: 220px;
-    height: 180px;
-    background: #edeff1;
-    border-radius: 10px;
+    width: 230px !important;
+    height: 300px !important;
+    background-size:contain !important;
+    background-repeat: no-repeat !important;
   }
+  
   .bigsquare3 {
-    align-self: flex-end;
-    width: 220px;
-    height: 180px;
-    background: #edeff1;
-    border-radius: 10px;
+    width: 230px !important;
+    height: 300px !important;
+    background-size:contain !important;
+    background-repeat: no-repeat !important;
   }
   
-  
-  .smallsquare1 {
-    display: flex;
-    margin-top: 1px;
-    width: 40px;
-    height: 40px;
-    border-radius: 3px;
-  }
-
-  .smallsquare2 {
-    display: flex;
-    margin-top: 1px;
-    width: 40px;
-    height: 40px;
-    border-radius: 3px;
-  }
-
-  .smallsquare3 {
-    display: flex;
-    margin-top: 1px;
-    width: 40px;
-    height: 40px;
-    border-radius: 3px;
+  .smallsquare{
+    width: 95%;
+    margin: 0px 50px -20px;
+    z-index: 2;
   }
   
-  .howdetails1 {
-    padding-top: 7px;
-    width: 220px;
-    height: 56px;
+  .avatarname{
+    font-size: 14px !important;
+  }
+  
+  .howdetails {
+  font-size: 12px !important;
+  height: 150px !important;
+  padding: 35px 17px 23px 17px !important;
+  }
+  
+  .viewprofcont{
+    padding: 10px 30px !important;
+  }
+  
+  .viewprof{
     font-size: 12px;
-    line-height: 18px;
   }
   
-  .howdetails2 {
-    padding-top: 7px;
-    width: 210px;
-    height: 56px;
-    font-size: 12px;
-    line-height: 18px;
+  .like{
+    font-size: 12px !important;
   }
-  .howdetails3 {
-    padding-top: 7px;
-    width: 220px;
-    height: 56px;
-    font-size: 12px;
-    line-height: 18px;
+  
+  .viewprof:hover{
+    color: #027a63;
+  }
+  
+  .like:hover{
+    color: #027a63;
   }
 
-  .howicon1{
-    height: 15px;
-  }
-
-  .howicon2{
-    height: 15px;
-  }
-
-  .howicon1{
-    height: 15px;
-  }
+  
 
   .connectcont{
     height: 180px;
@@ -1126,6 +1117,10 @@ body{
     padding: 15px 0;
     font-size: 15px;
   }
+
+  .googleplaystorepic{
+    height: 60px;
+  }
   
   .circleandimage{
     display: flex;
@@ -1142,17 +1137,27 @@ body{
     /* background: url(pexels-asa-dugger-1649896-removebg-preview.png); */
   }
   .asacircle{
-    margin-top: -240px;
-    margin-left: 70px;
+    margin-top: -250px;
+    margin-left: 10px;
     height: 120px;
     width: 120px;
   }
+
+  .androiddown{
+    margin-top: -30px;
+    margin-left: 40px;
+    height: 260px;
+    width: 130px;
+  }
+
+  
   
   .gentestimonycont{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 90px;
+    margin-bottom: 150px;
     width: 100%;
     height: 400px;
   }
@@ -1276,6 +1281,545 @@ body{
   }
   
   .howitworkscircle{
+    display: none;
+  }
+}
+
+/* CCODE FOR MOBILE DEVICES START HERE */
+@media screen and (min-width: 360px) and (max-width: 425px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: 280px;
+    padding: 2px;
+  }
+  .mainlogo {
+    width: 90px;
+    height: 42px;
+  }
+
+  .searchtext {
+    width: 270px;
+    height: 35px;
+    font-size: 15px;
+  }
+
+  .searchcont {
+    width: 300px;
+    height: 45px;
+  }
+
+  .home {
+    font-size: 15px;
+  }
+
+  .login {
+    font-size: 15px;
+  }
+
+  .getbunkiebut {
+    width: 100px;
+    font-size: 10px;
+    height: 30px;
+  }
+
+  a.home {
+    text-decoration: none;
+  }
+
+  a.login {
+    text-decoration: none;
+  }
+
+  .useravatar{
+    height: 25px;
+    width: 25px;
+  }
+
+  .notibell{
+    height: 20px;
+    width: 20px;
+  }
+
+  .headcategory {
+    display: flex;
+    height: 270px;
+  }
+
+  .heropic {
+    width: 100%;
+    height: auto;
+  }
+
+  .circle1 {
+    height: 90px;
+    width: 90px;
+    top: 100px;
+  }
+
+  .circle2 {
+    height: 50px;
+    width: 50px;
+    left: 150px;
+    top: 200px;
+  }
+
+  .heromaintext {
+    left: 40px;
+    top: 125px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .herosubtext {
+    width: 50%;
+    left: 40px;
+    font-weight: 100;
+    font-style: italic;
+    top: 160px;
+    font-size: 9px;
+    line-height: 11px;
+  }
+
+  .getstarted {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 40px;
+    top: 220px;
+    font-size: 11px;
+    line-height: 15px;
+
+    color: #ffffff;
+  }
+
+  .aboutcategory {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  .aboutimage {
+    margin: auto;
+  }
+
+  .aboutpic {
+    width: 300px;
+  }
+
+  .aboutcircle {
+    display: none;
+    margin-top: 45px;
+    width: 70px;
+    height: 70px;
+    background: rgba(129, 225, 241, 0.2);
+    border-radius: 50%;
+  }
+
+  .abouttextcont {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .abouttextheading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .aboutline {
+    margin: 0 0 15px;
+    width: 57px;
+    height: 3px;
+  }
+
+  .aboutdetailstext {
+    width: 80%;
+    height: 90px;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .aboutreadmore {
+    width: 100px;
+    height: 48px;
+    font-size: 11px;
+    margin-top: 3px;
+  }
+
+  .recentcategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 30px 0px;
+  }
+  
+  .recenttextheading {
+    height:32px !important;
+    font-size: 20px !important;
+    text-align: center;
+  }
+  
+  .recentline {
+    margin: 5px 0 15px 42% !important;
+    width: 50px !important;
+  }
+  
+  .recentdetailstext {
+    align-self: center;
+    width: 440px;
+    height: 30px !important;
+    font-size: 15px !important;
+    line-height: 148.4%;
+    /* or 30px */
+    text-align: center;
+    color: #3e3e3e;
+  }
+  .squarecont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80%;
+    width: 100%;
+    margin: 0px auto 5px;
+    padding-top: 50px;
+  }
+
+  .genrencont{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .bigsquare1 {
+    width: 230px !important;
+    height: 300px !important;
+    background-size:contain !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  .bigsquare2 {
+    width: 230px !important;
+    height: 300px !important;
+    background-size:contain !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  .bigsquare3 {
+    width: 230px !important;
+    height: 300px !important;
+    background-size:contain !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  .smallsquare{
+    width: 95%;
+    margin: 0px 50px -20px;
+    z-index: 2;
+  }
+  
+  .avatarname{
+    font-size: 14px !important;
+  }
+  
+  .howdetails {
+  font-size: 12px !important;
+  height: 150px !important;
+  padding: 35px 17px 23px 17px !important;
+  }
+  
+  .viewprofcont{
+    padding: 10px 30px !important;
+  }
+  
+  .viewprof{
+    font-size: 12px;
+  }
+  
+  .like{
+    font-size: 12px !important;
+  }
+  
+  .viewprof:hover{
+    color: #027a63;
+  }
+  
+  .like:hover{
+    color: #027a63;
+  }
+
+
+  .connectcont {
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .connecttextheading {
+    width: 90%;
+    height: 25px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+  }
+
+  .connectrec {
+    margin: 0.5px auto 15px;
+    width: 50px;
+    height: 3px;
+  }
+
+  .connectsubheading {
+    width: 80%;
+    height: auto;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    /* or 30px */
+
+    text-align: center;
+    color: #3e3e3e;
+  }
+
+  .schcont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .schimgcap {
+    height: 220px;
+  }
+
+  .schpic {
+    width: 270px;
+    height: 170px;
+  }
+
+  .schname {
+    width: 270px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .viewmorebut {
+    margin: 20px auto 20px 25%;
+    width: 200px;
+    height: 58px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .joinnowcont {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    margin: 35px auto;
+    width: 85%;
+    height: auto;
+    border-radius: 120px 0px;
+  }
+
+  .textandbut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+
+  .jointext {
+    width: 90%;
+    height: auto;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .inlinelink {
+    color: #00be85;
+    text-decoration: none;
+  }
+
+  .joinnowbut {
+    width: 150px;
+    height: 50px;
+    padding: 0 0;
+    font-size: 15px;
+  }
+
+  .circleandimage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .asadugger {
+    margin-top: -100px;
+    width: 180px;
+    height: 300px;
+    z-index: 2;
+
+    /* background: url(pexels-asa-dugger-1649896-removebg-preview.png); */
+  }
+  .asacircle {
+    margin-top: -180px;
+    margin-left: 30px;
+    height: 90px;
+    width: 90px;
+  }
+
+
+  .androiddown{
+    margin-top: -130px;
+    margin-left: 40px;
+    height: 150px;
+    width: 80px;
+  }
+
+  .gentestimonycont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+  }
+
+  .testtextheading {
+    width: 220px;
+    height: 23px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 23px;
+    /* identical to box height */
+
+    color: #444343;
+  }
+
+  .testimonyrec {
+    margin: 5px auto 5px;
+    width: 30px;
+    height: 4px;
+  }
+
+  .testaligncont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+  }
+
+  .leftfloat {
+    display: none;
+    height: 500px;
+    width: 15%;
+  }
+
+  .floatpictesttl {
+    width: 50px;
+    height: 50px;
+  }
+
+  .floatpictestml {
+    width: 50px;
+    height: 50px;
+  }
+
+  .floatpictestbl {
+    width: 50px;
+    height: 50px;
+  }
+
+  .testimonycont {
+    width: 80%;
+    height: auto;
+  }
+
+  .testimg {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .testname {
+    margin-bottom: 10px;
+    width: 125px;
+    height: 23px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 23px;
+  }
+
+  .testimony {
+    width: 90%;
+    height: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 148.4%;
+    /* or 27px */
+    text-align: center;
+    color: #3e3e3e;
+  }
+
+  .rightfloat {
+    display: none;
+    height: 500px;
+    width: 15%;
+  }
+
+  .floatpictesttr {
+    width: 50px;
+    height: 50px;
+  }
+
+  .floatpictestmr {
+    width: 50px;
+    height: 50px;
+  }
+
+  .floatpictestbr {
+    width: 50px;
+    height: 50px;
+  }
+
+  .rec1 {
+    position: absolute;
+    width: 164px;
+    height: 7px;
+    left: 317px;
+    top: 2096px;
+
+    background: #00be85;
+    border: 2px solid #00be85;
+    box-sizing: border-box;
+  }
+
+  .connectcircle {
+    display: none;
+  }
+
+  .howitworkscircle {
     display: none;
   }
 }
