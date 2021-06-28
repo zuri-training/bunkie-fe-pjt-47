@@ -2,7 +2,7 @@
 
 ### USING THE HEADER OR FOOTER
 
-the styling files (main.scss, main.css.map & main.scss) for the header of the page is in the "navbar" folder
+the css styling file for the full pages asides the footer is ./landingpage/styles.css
 
 the css file for the footer of the page is in the "footer" folder
 
