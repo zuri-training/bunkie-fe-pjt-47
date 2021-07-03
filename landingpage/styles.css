@@ -91,6 +91,10 @@ body {
   color: #ffffff;
 }
 
+.getbunkiebut:hover{
+  background-color: #34a853;
+}
+
 a.home {
   text-decoration: none;
 }
@@ -169,6 +173,11 @@ a.login {
 
   color: #ffffff;
 }
+
+.getstarted:hover{
+  background-color: #34a853;
+}
+
 
 .aboutcategory {
   display: flex;
@@ -515,6 +524,11 @@ a.login {
   color: #ffffff;
 }
 
+.viewmorebut:hover{
+  background-color: #34a853;
+}
+
+
 .joinnowcont {
   display: flex;
   padding: 20px 40px;
@@ -564,6 +578,11 @@ a.login {
   line-height: 30px;
   color: #ffffff;
 }
+
+.joinnowbut:hover{
+  background-color: #34a853;
+}
+
 
 .circleandimage {
   display: flex;
