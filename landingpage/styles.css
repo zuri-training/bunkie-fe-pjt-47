@@ -14,7 +14,7 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 90px;
@@ -44,7 +44,7 @@ body {
   justify-content: flex-end;
   width: 380px;
   height: 60px;
-  background: rgba(229, 229, 229, 0.93);
+  /* background: rgba(229, 229, 229, 0.93); */
   border-radius: 10px;
   border: 0px;
 }
@@ -58,6 +58,12 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #090909;
+}
+
+.home:hover{
+  text-decoration: underline;
+  text-decoration-color: #027a63;
+  text-decoration-thickness: 3px;
 }
 
 .login {
@@ -74,7 +80,7 @@ body {
 .getbunkiebut {
   width: 172px;
   height: 37px;
-  justify-self: end;
+  justify-self: right;
   background-color: #027a63;
   border-radius: 10px;
   font-family: Montserrat;
@@ -802,8 +808,10 @@ a.login {
   }
 
   .searchcont {
-    width: 230px;
+    display: none;
+    width: 50px;
     height: 45px;
+    background-color: aqua;
   }
 
   .home {
@@ -884,6 +892,7 @@ a.login {
     width: 100%;
     height: 300px;
     justify-content: center;
+    margin-top: 20px;
   }
   .aboutimage {
     margin: auto;
@@ -1299,7 +1308,7 @@ a.login {
   nav {
     display: flex;
     flex-wrap: wrap;
-    height: 280px;
+    height:auto;;
   }
   .mainlogo {
     width: 90px;
@@ -1313,7 +1322,8 @@ a.login {
   }
 
   .searchcont {
-    width: 230px;
+    display: none;
+    width: 50px;
     height: 45px;
   }
 
@@ -1334,13 +1344,14 @@ a.login {
     text-decoration: none;
   }
 
+
   a.login {
     text-decoration: none;
   }
 
   .headcategory {
     display: flex;
-    height: 270px;
+    height: 200px;
   }
 
   .heropic {
@@ -1406,6 +1417,7 @@ a.login {
   }
 
   .aboutcircle {
+    display: none;
     margin-top: 45px;
     width: 70px;
     height: 70px;
@@ -1549,7 +1561,7 @@ a.login {
   }
   .howdetails3 {
     padding-top: 7px;
-    width: 220px;
+    width: 215px;
     height: 56px;
     font-size: 12px;
     line-height: 18px;
