@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 90vh;
+    height: 100px; 
+}
+.main{
+    /* margin: 20px 40px 20px 40px;
+    border: 1px solid green; 
+    width: 100vmax; */
+    max-height: 80vh;  
+}
+
+.main1{
+    float: left; width: 40%; height: 127vh;
+    background-image: url("one (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    margin: 30px 30px 10px 37px;
+}
+.get{
+    margin: 20px 30px 30px 37px;
+    text-align: left;
+    font-size: 18px;
+}
+.hey{
+    margin: 80px 30px 30px 30px;
+    font-size: 18px;
+}
+.bunk{
+    margin: 293px 0px 0px 0px;
+    font-size: 90px;
+    color: #808080;
+    font-weight: 2px;
+}
+
+.main2{
+    float: left; width: 60%; height: 100vh;
+   margin: auto;
+   justify-content: center;
+   text-align: center; 
+   background-color: rgb(241, 240, 237);
+
+}
+.room{
+    width: 700px;
+    background-color: white;
+    margin: auto;
+    height: 560px;
+}
+
+.welcome{
+    text-align: center;
+
+}
+.account{
+    margin: 20px;
+
+}
+
+.input-name{
+    margin-bottom: 10px;
+
+}
+
+.input-box{
+    padding: 10px;
+    margin: 60px 5px 5px 5px;
+}
+.phone-number{
+    border-radius: 12px;
+    border-color: #f0f0;
+    height: 50px;
+    width: 470px; 
+    padding: 10px;
+    background-color: #f0f0f5;
+    margin-top: 10px;
+
+}
+.account{
+    margin-top: 20px;
+}
+.cross{
+    margin-top: 3px;;
+}
+.sign{
+    border-radius: 12px;
+    border-color: #f0f0;
+    height: 50px;
+    width: 470px; 
+    text-align: center;
+   margin-top: 10px;
+   background-color: #f0f0f5;
+}
+
+ 
+/* .signup{
+    text-align: center;
+    text-decoration: wavy;
+    margin: 5px;
+} */
+
+/* .signup {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0e6856;
+  }
+  
+  .signup::before,
+  .signup::after {
+    content: '';
+    flex: 0.5;
+    border-bottom: 1px solid #000;
+  }
+  
+  .signup:not(:empty)::before {
+    margin-right: .25em;
+    line-height: 0.1em; 
+  }
+  
+  .signup:not(:empty)::after { */
+    /* margin-left: .25em;
+  }
+ */
+
+
+  @media screen and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        max-height: 50vh;
+        height: 500px;
+    }
+    .main{
+        /* margin: 20px 40px 20px 40px;
+        border: 1px solid green;
+        width: 100vmax; */
+        max-height: 50vh;  
+    }
+    
+    .main1{
+        float: left; width: 40%; height: 100vh;
+        background-image: url("one.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .get{
+        margin: 10px 10px 10px 17px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .hey{
+        margin: 100px 10px 10px 10px;
+        font-size: 18px;
+    }
+    .bunk{
+        margin: 260px 0px 0px 0px;
+        font-size: 90px;
+        color: #808080;
+        font-weight: 2px;
+    }
+    
+    .main2{
+        float: left; width: 60%; height: 80vh;
+       margin: auto;
+       justify-content: center;
+       text-align: center; 
+    }
+    
+    .welcome{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .account{
+        margin: 20px;
+    
+    }
+    
+    .input-name{
+        margin-bottom: 10px;
+    
+    }
+    
+    .input-box{
+        padding: 10px;
+        margin: 5px;
+    }
+    .phone-number{
+        border-radius: 15px;
+        height: 30px;
+        width: 210px; 
+        padding: 10px;
+        background-color: #f0f0f5;
+    }
+    .sign{
+        border-radius: 15px;
+        height: 30px;
+        width: 210px; 
+        text-align: center;
+       margin-top: 15px;
+       background-color: #f0f0f5;
+    }
+     
+    /* .signup{
+        text-align: center;
+        text-decoration: wavy;
+        margin: 5px;
+    } */
