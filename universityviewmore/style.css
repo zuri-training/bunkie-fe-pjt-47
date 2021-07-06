@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  background: #ffffff;
+  font-family: Montserrat;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  /* background: #b9d41b; */
+  box-shadow: 0px 0px 2px 2px #807e7e;
+}
+
+.mainlogo {
+  width: 170px;
+  height: 65px;
+  padding: 2rem auto;
+}
+
+.searchtext {
+  width: 330px;
+  height: 50px;
+  padding: 5px 5px 5px 10px;
+  background: rgba(229, 229, 229, 0.79);
+  border-radius: 10px;
+  border: 0px;
+  outline: none;
+  font-size: 20px;
+}
+
+.searchcont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 380px;
+  height: 60px;
+  /* background: rgba(229, 229, 229, 0.93); */
+  border-radius: 10px;
+  border: 0px;
+}
+
+.home {
+  width: 63px;
+  top: 55px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #090909;
+}
+
+.home:hover{
+  text-decoration: underline;
+  text-decoration-color: #027a63;
+  text-decoration-thickness: 3px;
+}
+
+.login {
+  width: 63px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #090909;
+}
+
+.getbunkiebut {
+  width: 172px;
+  height: 37px;
+  justify-self: right;
+  background-color: #027a63;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.getbunkiebut:hover{
+  background-color: #34a853;
+}
+
+a.home {
+  text-decoration: none;
+}
+
+a.login {
+  text-decoration: none;
+}
+
+.searchmaincont{
+display: flex;
+justify-content: space-evenly;
+margin-top: 30px;
+width: 100%;
+}
+
+.searchcont1{
+    width: 70%;
+}
+
+.search{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(234, 234, 234, 0.58);
+}
+
+.undersearch{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8A8A8E;
+}
+
+.searchbut{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgba(234, 234, 234, 0.58);
+    color: #8A8A8E;
+}
+
+.viewschoolsection{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.viewschoolheader{
+    color: #444343;
+    font-size: 25px;
+}
+.underline:after{
+    content: '';
+    display: block;
+    width: 10%;
+    height: 4px;
+    background-color: #34a853;
+}
+
+.schools{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.schoolinfo{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.schoolname1{
+    border: 2px solid rgba(232, 232, 232, 0.6);
+width: 70%;
+height: 40px;
+border-radius: 8px;
+background-color: rgba(232, 232, 232, 0.6);
+padding-top: 20px;
+padding-left: 20px;
+font-size: 16px;
+color: #8A8A8E;
+}
+
+.schoolname2{
+    border: 2px solid rgba(204, 228, 224, 0.6);
+    width: 70%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgba(232, 232, 232, 0.6);
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    background-color: rgba(204, 228, 224, 0.6);
+    color: #8A8A8E;
+    }
+
+
+.schoolname1:hover{
+    border: 2px solid #34A853;
+}
+
+.schoolname2:hover{
+    border: 2px solid #34A853;
+}
+
+.viewbut{
+    width: 120px;
+    height: 65px;
+    border: 1px solid #8A8A8E;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #8A8A8E;
+}
+
+.viewbut:hover{
+    background-color: #34a853;
+    color: #ffffff;
+}
+
+.selecteduni{
+    text-decoration: none;
+    height: 90px;
+}
