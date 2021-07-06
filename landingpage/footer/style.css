@@ -42,6 +42,10 @@
   margin-right: 20px;
 }
 
+.googleplaystorepic:hover{
+  box-shadow: 1px 1px 1px 1px #ffffff;
+}
+
 .iosappstorepic {
   margin-top: 5px;
   width: 235px;
