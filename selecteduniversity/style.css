@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  background: rgba(241, 241, 241, 1);
+  font-family: Montserrat;
+}
+
+.nav {
+    background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  /* background: #b9d41b; */
+  box-shadow: 0px 0px 2px 2px #807e7e;
+}
+
+.mainlogo {
+  width: 170px;
+  height: 65px;
+  padding: 2rem auto;
+}
+
+.searchtext {
+  width: 330px;
+  height: 50px;
+  padding: 5px 5px 5px 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 0px;
+  outline: none;
+  font-size: 20px;
+}
+
+.searchcont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 380px;
+  height: 60px;
+  /* background: rgba(229, 229, 229, 0.93); */
+  border-radius: 10px;
+  border: 0px;
+}
+
+.home {
+  width: 63px;
+  top: 55px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #090909;
+}
+
+.home:hover{
+  text-decoration: underline;
+  text-decoration-color: #027a63;
+  text-decoration-thickness: 3px;
+}
+
+.login {
+  width: 63px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #090909;
+}
+
+.getbunkiebut {
+  width: 172px;
+  height: 37px;
+  justify-self: right;
+  background-color: #027a63;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.getbunkiebut:hover{
+  background-color: #34a853;
+}
+
+a.home {
+  text-decoration: none;
+}
+
+a.login {
+  text-decoration: none;
+}
+
+.generalcont{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.schoolsection{
+    width: 30%;
+    height: 500px;
+    background-attachment: fixed;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px 9px 0px 0px;
+}
+
+.schimg{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.schoolname{
+    font-size: 21px;
+    text-align: center;
+    margin-top: 20px;
+    color: #3E3E3E;
+    width: 75%;
+}
+
+.schbrief{
+    font-size: 14px;
+    margin-top: 15px;
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    color: #3E3E3E;
+}
+
+.getstarted{
+    margin-top: 30px;
+    background-color: #34a853;
+    color: #ffffff;
+    padding: 20px;
+    width: 230px;
+    border-radius: 8px;
+}
+
+.getstarted:hover{
+  background-color: #027a63;
+}
+
+.studentsection{
+    width:60%;
+    background-attachment: scroll;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search{
+    padding: 15px;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+    color: #8a8a8e ;
+    outline: none;
+}
+
+.studentsection::-webkit-scrollbar{
+    background: transparent;
+}
+
+.studentsectionheader{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #444343;
+}
+
+.studentcont{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+
+.student{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.studentimg{
+    width: 100%;
+}
+
+.studentname{
+    background-color: #ffffff;
+    margin-top: -15px;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    color: #3E3E3E;
+}
+
+.studentdept{
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-top: -5px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+    font-size: 11px;
+    color: #8a8a8e;
+}
+
+.applink{
+  font-size: 14px;
+  color: #3E3E3E;
+  text-decoration: none;
+}
+
+/* CCODE FOR TABLET DEVICES START HERE */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  body {
+    position: relative;
+  }
+  
+  .nav {
+    width: 100%;
+    height: 80px;
+  }
+  
+  .mainlogo {
+    width: 170px;
+    height: 65px;
+    padding: 2rem auto;
+  }
+  
+  .searchtext {
+    width: 150px;
+  }
+  
+  .searchcont {
+    width: 180px;
+  }
+  
+  .home {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .home:hover{
+    text-decoration-thickness: 3px;
+  }
+  
+  .login {
+    width: 18px;
+    height: 24px;
+  }
+  
+  .getbunkiebut {
+    width: 172px;
+    height: 37px;
+    font-size: 18px;
+  }
+  
+  .getbunkiebut:hover{
+    background-color: #34a853;
+  }
+  
+  a.home {
+    text-decoration: none;
+  }
+  
+  a.login {
+    text-decoration: none;
+  }
+  
+  .generalcont{
+      width: 100%;
+      height: 500px;
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 50px;
+  }
+  
+  .schoolsection{
+      width: 40%;
+      height: 450px;
+  }
+  
+  .schimg{
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
+  
+  .schoolname{
+      font-size: 18px;
+      width: 80%;
+  }
+  
+  .schbrief{
+      font-size: 12px;
+      margin-top: 15px;
+      width: 90%;
+      text-align: center;
+      margin-top: 20px;
+      color: #3E3E3E;
+  }
+  
+  .getstarted{
+    font-size: 14px;
+      padding: 10px;
+      width: 100px;
+      border-radius: 8px;
+  }
+  
+  .getstarted:hover{
+    background-color: #027a63;
+  }
+  
+  .studentsection{
+      width:55%;
+      background-attachment: scroll;
+      overflow-y: scroll;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .search{
+      padding: 15px;
+      width: 70%;
+  }
+  
+  .studentsection::-webkit-scrollbar{
+    width: auto;
+      background: transparent;
+  }
+  
+  .studentsectionheader{
+      font-size: 18px;
+      color: #444343;
+  }
+  
+  .studentcont{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-top: 10px;
+  }
+  
+  
+  .student{
+      width: 40%;
+  }
+  
+  .studentimg{
+      width: 100%;
+  }
+  
+  .studentname{
+      background-color: #ffffff;
+      margin-top: -15px;
+      padding-top: 5px;
+      padding-left: 7px;
+      padding-bottom: 3px;
+      font-size: 12px;
+      color: #3E3E3E;
+  }
+  
+  .studentdept{
+      font-size: 9px;
+      color: #8a8a8e;
+  }
+  
+  .applink{
+    font-size: 12px;
+    color: #3E3E3E;
+    text-decoration: none;
+  }
+}
+
+/* CCODE FOR MOBILE DEVICES START HERE */
+@media screen and (min-width: 360px) and (max-width: 425px) {
+  
+  
+  .nav {
+    width: 100%;
+    height: 80px;
+  }
+  
+  .mainlogo {
+    width: 110px;
+    height: 35px;
+    padding: 2rem auto;
+  }
+  
+  .searchtext {
+    width: 50px;
+  }
+  
+  .searchcont {
+    width: 80px;
+  }
+  
+  .home {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .home:hover{
+    text-decoration-thickness: 3px;
+  }
+  
+  .login {
+    width: 18px;
+    height: 24px;
+  }
+  
+  .getbunkiebut {
+    width: 120px;
+    height: 37px;
+    font-size: 12px;
+  }
+  
+  .getbunkiebut:hover{
+    background-color: #34a853;
+  }
+  
+  a.home {
+    text-decoration: none;
+  }
+  
+  a.login {
+    text-decoration: none;
+  }
+  
+  .generalcont{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 30px;
+
+  }
+  
+  .schoolsection{
+      width: 90%;
+      height: auto;
+      background-attachment: fixed;
+  }
+  
+  .schimg{
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
+  
+  .schoolname{
+      font-size: 18px;
+      width: 80%;
+  }
+  
+  .schbrief{
+      font-size: 12px;
+      margin-top: 15px;
+      width: 90%;
+      text-align: center;
+      margin-top: 20px;
+      color: #3E3E3E;
+  }
+  
+  .getstarted{
+    font-size: 14px;
+      padding: 10px;
+      width: 100px;
+      border-radius: 8px;
+  }
+  
+  .getstarted:hover{
+    background-color: #027a63;
+  }
+  
+  .studentsection{
+      width: 90%;
+      background-attachment: fixed;
+      overflow-y:scroll;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+  }
+  
+  .search{
+      padding: 15px;
+      width: 70%;
+  }
+  
+  .studentsection::-webkit-scrollbar{
+    display: none;
+    width: auto;
+      background:auto;
+  }
+  
+  .studentsectionheader{
+      font-size: 18px;
+      color: #444343;
+  }
+  
+  .studentcont{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-top: 10px;
+      margin-bottom: 30px;
+  }
+  
+  
+  .student{
+      width: 70%;
+  }
+  
+  .studentimg{
+      width: 100%;
+  }
+  
+  .studentname{
+      background-color: #ffffff;
+      margin-top: -15px;
+      padding-top: 5px;
+      padding-left: 7px;
+      padding-bottom: 3px;
+      font-size: 12px;
+      color: #3E3E3E;
+  }
+  
+  .studentdept{
+      font-size: 9px;
+      color: #8a8a8e;
+  }
+  
+  .applink{
+    font-size: 12px;
+    color: #3E3E3E;
+    text-decoration: none;
+  }
+}
+
+}

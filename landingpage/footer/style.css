@@ -1,59 +1,65 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
 
-body {
-  position: relative;
+.footerinitial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/landingpage/resources/images/Rectangle\ 110footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
-  height: 4917px;
-  margin: auto -40px;
-
- background: #ffffff;
-}
-.footerrec {
-  position: absolute;
-  width: 1440px;
-  height: 321px;
-  left: 0px;
-  top: 4228px;
-  margin: auto 40px; 
+  height: 300px;
+  margin-top: 150px;
 }
 
 .ftmaintext {
-  position: absolute;
+  margin-top: 50px;
   width: 778px;
   height: 117px;
-  left: 331px;
-  top: 4287px;
-
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 139%;
   /* or 39px */
-
   text-align: center;
-
   color: #ffffff;
 }
 
+.applogs {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+  height: 200px;
+}
+
 .googleplaystorepic {
-  position: absolute;
   width: 222.22px;
   height: 75px;
-  left: 427px;
-  top: 4432px;
-
   border-radius: 10px;
+  margin-right: 20px;
+}
+
+.googleplaystorepic:hover{
+  box-shadow: 1px 1px 1px 1px #ffffff;
 }
 
 .iosappstorepic {
-  position: absolute;
+  margin-top: 5px;
   width: 235px;
   height: 65px;
-  left: 763px;
-  top: 4437px;
   border-radius: 10px;
+  margin-left: 20px;
+}
+
+.footertextmajor {
+  display: flex;
+  width: 98%;
+  justify-content: center;
+  height: 300px;
+  margin: 20px 10px;
 }
 
 h4 {
@@ -63,49 +69,16 @@ h4 {
   font-size: 30px;
   line-height: 37px;
   /* identical to box height */
-
   color: #090909;
 }
 
 .bunkiefttext {
-  position: absolute;
   width: 180px;
-  /* height: 49px; */
-  left: 100px;
-  top: 4611px;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 49px;
-  /* identical to box height */
-
-  color: #090909;
+  margin-left: -10px;
 }
-
-.sponsors {
-  position: absolute;
-  width: 143px;
-  height: 37px;
-  left: 420px;
-  top: 4615px;
-}
-
-.contact {
-  position: absolute;
-  width: 167px;
-  height: 37px;
-  left: 730px;
-  top: 4615px;
-}
-
-.company {
-  position: absolute;
-  width: 149px;
-  height: 37px;
-  left: 1040px;
-  top: 4615px;
+.headertext {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h6 {
@@ -113,150 +86,319 @@ h6 {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 148.4%;
+  line-height: 30px;
   /* or 30px */
 
   color: #3e3e3e;
 }
 
+.contenttext {
+  margin-bottom: 5px;
+}
+
+.logoaddicon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 20%;
+  margin-top: 20px;
+}
 .motto {
-  position: absolute;
-  width: 238px;
-  height: 60px;
-  left: 110px;
-  top: 4680px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.sponsor1 {
-  position: absolute;
-  width: 140px;
-  height: 30px;
-  left: 420px;
-  top: 4680px;
+.footericons {
+  display: flex;
+  justify-content: start;
+  margin-top: 5px;
 }
-
-.sponsor2 {
-  position: absolute;
-  width: 78px;
-  height: 30px;
-  left: 420px;
-  top: 4718px;
-}
-
-.sponsor3 {
-  position: absolute;
-  width: 106px;
-  height: 30px;
-  left: 420px;
-  top: 4756px;
-}
-
-.sponsor4 {
-  position: absolute;
-  width: 78px;
-  height: 30px;
-  left: 420px;
-  top: 4794px;
-}
-
-.contact1 {
-  position: absolute;
-  width: 190px;
-  height: 30px;
-  left: 730px;
-  top: 4680px;
-}
-
-.contact2 {
-  position: absolute;
-  width: 216px;
-  height: 30px;
-  left: 730px;
-  top: 4718px;
-}
-
-.contact3 {
-  position: absolute;
-  width: 196px;
-  height: 30px;
-  left: 730px;
-  top: 4756px;
-}
-
-.contact4 {
-  position: absolute;
-  width: 112px;
-  height: 30px;
-  left: 730px;
-  top: 4794px;
-}
-
-.about {
-  position: absolute;
-  width: 104px;
-  height: 30px;
-  left: 1040px;
-  top: 4680px;
-}
-
-.services {
-  position: absolute;
-  width: 138px;
-  height: 30px;
-  left: 1040px;
-  top: 4718px;
-}
-
-.community {
-  position: absolute;
-  width: 138px;
-  height: 30px;
-  left: 1040px;
-  top: 4756px;
-}
-
-.blog {
-  position: absolute;
-  width: 60px;
-  height: 30px;
-  left: 1040px;
-  top: 4794px;
-}
-
 .iglogo {
-  position: absolute;
-  top: 4750px;
-  left: 110px;
+  margin-right: 25px;
 }
 
 .fblogo {
-  position: absolute;
-  top: 4750px;
-  left: 270px;
+  margin-right: 25px;
 }
 
-.twlogo {
-  position: absolute;
-  top: 4750px;
-  left: 190px;
+.footerheading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  margin-left: 30px;
+}
+
+.breakers {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 
 .break-left {
-  position: absolute;
   width: 504px;
   height: 0px;
-  left: 110px;
-  top: 4878px;
-
   border: 1px solid #000000;
 }
 
 .break-right {
-  position: absolute;
   width: 517px;
   height: 0px;
-  left: 814px;
-  top: 4878px;
-
   border: 1px solid #000000;
+}
+
+/* THE CODE FOR TABLET STARTS HERE */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .footerinitial {
+    background-image: url(/landingpage/resources/images/Rectangle\ 110footer.png);
+    background-size: contain;
+    width: 100%;
+    height: 180px;
+  }
+
+  .ftmaintext {
+    margin-top: 40px;
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    line-height: 139%;
+  }
+
+  .applogs {
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+  }
+
+  .googleplaystorepic {
+    width: 180px;
+    height: 62px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .iosappstorepic {
+    margin-top: 5px;
+    width: 180px;
+    height: 53px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+
+  .footertextmajor {
+    width: 98%;
+    justify-content: center;
+    height: 200px;
+    margin: 20px 5px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  .bunkiefttext {
+    width: 120px;
+    margin-left: -10px;
+  }
+  .headertext {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  h6 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .contenttext {
+    margin-bottom: 8px;
+  }
+
+  .logoaddicon {
+    width: 20%;
+    margin-top: 20px;
+  }
+  .motto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footericons {
+    margin-top: 5px;
+  }
+  .iglogo {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .fblogo {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .twlogo {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .footerheading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+    margin-left: 30px;
+  }
+
+  .breakers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .break-left {
+    width: 40%;
+    height: 0px;
+    border: 1px solid #000000;
+  }
+
+  .break-right {
+    width: 40%;
+    height: 0px;
+    border: 1px solid #000000;
+  }
+}
+
+/* CCODE FOR MOBILE DEVICES START HERE */
+@media screen and (min-width: 360px) and (max-width: 425px) {
+  .footerinitial {
+    background-image: url(/landingpage/resources/images/Rectangle\ 110footer.png);
+    background-size: contain;
+    width: 100%;
+    height: auto;
+  }
+
+  .ftmaintext {
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    font-size: 9px;
+    line-height: 139%;
+  }
+
+  .applogs {
+    display: flex;
+    align-items: center;
+    background-color: #2bc999;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .googleplaystorepic {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .iosappstorepic {
+    margin-top: 5px;
+    width: 70px;
+    height: 28px;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+
+  .footertextmajor {
+    flex-direction: column;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 20px 5px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  .bunkiefttext {
+    width: 120px;
+    margin-left: -10px;
+  }
+  .headertext {
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  h6 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .contenttext {
+    margin-bottom: 8px;
+  }
+
+  .logoaddicon {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .motto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footericons {
+    margin-top: 5px;
+  }
+  .iglogo {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .fblogo {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .twlogo {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .footerheading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin-left: 0px;
+  }
+
+  .breakers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .break-left {
+    width: 40%;
+    height: 0px;
+    border: 1px solid #000000;
+  }
+
+  .break-right {
+    width: 40%;
+    height: 0px;
+    border: 1px solid #000000;
+  }
 }
